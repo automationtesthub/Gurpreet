@@ -11,6 +11,7 @@ public class login {
 	@Test	
 	public void Login()
 	{
+		System.out.println("GitHub Changes");
 		System.setProperty("webdriver.gecko.driver", "E:\\Selenium\\Selenium_Software\\geckodriver.exe");  
 	    WebDriver driver = new FirefoxDriver();
 	    driver.get("http://localhost:100/");
